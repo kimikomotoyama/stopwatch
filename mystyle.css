@@ -1,0 +1,35 @@
+body {
+	background: #e0e0e0;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+#timerText{
+	color: #00aaff;
+	font-size: 128px;
+	margin: 40px auto;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.btn{
+	display: inline-block;
+	width: 100px;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 0 4px 0 #0088cc;
+	color: #fff;
+	background: #00aaff;
+	cursor: pointer;
+}
+.btn + .btn {
+	margin-left: 10px;
+
+}
+.btn.active{
+	opacity: 1.0;
+}
+.btn.inactive{
+	opacity: 0.5;
+}
+.btn.pushed{
+	margin-top: 32px;
+	box-shadow: 0 2px #0088cc;
+}
